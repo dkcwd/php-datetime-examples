@@ -71,11 +71,13 @@ $comments = (isset($location['comments']) && ! empty($location['comments'])) ? $
 
 <h2>Some examples of date formats</h2>
 <table style="margin: 5px;">
-    <th>Format</th><th>Value</th>
+    <th>Format</th>
+    <th>Value</th>
     <tbody>
     <?php foreach ($formats as $fKey => $fVal) : ?>
         <tr>
-            <td style="padding: 5px;border: 1px solid #888888;"><?php echo $fKey; ?></td><td style="padding: 5px;border: 1px solid #888888;"><?php echo $fVal; ?></td>
+            <td style="padding: 5px;border: 1px solid #888888;"><?php echo $fKey; ?></td>
+            <td style="padding: 5px;border: 1px solid #888888;"><?php echo $fVal; ?></td>
         </tr>
     <?php endforeach; ?>
     </tbody>
